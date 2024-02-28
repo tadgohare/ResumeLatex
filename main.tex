@@ -1,0 +1,207 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+ \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-289-700-2048 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape tadg o'hare} \\ \vspace{1pt}
+    \small +1 (289) 700-2028 $|$ \href{mailto:tadg.ohare@gmail.com}{\underline{tadg.ohare@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/tadgohare}{\underline{linkedin.com/in/tadgohare}} $|$
+    \href{https://github.com/tadgohare}{\underline{github.com/tadgohare}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Carleton University}{Ottawa, ON}
+      {Bachelor of Computer Science}{August 2020 -- May 2025}
+    \resumeSubheading
+      {Westdale Secondary School}{Hamilton, ON}
+      {French Immersion Certificate}{September 2016 -- June 2020}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+
+    \resumeSubheading
+      {Student Systems Engineer}{May 2022 - September 2022}
+      {Canadian Air Transport Security Authority (CATSA | ACSTA)}{Ottawa, ON}
+      \resumeItemListStart
+        \resumeItem{Upgraded systems for a return to work in a post-COVID working environment}
+        \resumeItem{Worked on creating tools to further help with workflow tasks}
+        \resumeItem{Spoke both English and French in a professional environment}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    % 
+    \resumeProjectHeading
+          {\textbf{Relax Project} $|$ \emph{Java, Relational Algebra}}{September 2024}
+          \resumeItemListStart
+            \resumeItem{Relational algebra query tool}
+            \resumeItem{Does standard relational algebra queries/operations on CSV tables (sigma, pi, natural join, etc.)}
+            \resumeItem{Bonus project on Github for database management class}
+          \resumeItemListEnd
+    
+    \resumeProjectHeading
+          {\textbf{MakerCon} $|$ \emph{JavaScript, Node.js, React Native, Google Cloud}}{March 2023}
+          \resumeItemListStart
+            \resumeItem{Smartphone app that identifies colour, text and different objects to help those who are visually impaired}
+            \resumeItem{Uses Google Vision API to identify objects and text and uses Google Text-To-Speech API to read the data aloud}
+            \resumeItem{Mobile component of application built using React Native}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+          {\textbf{Diary AI} $|$ \emph{JavaScript, React, Python, OpenAI}}{January 2023}
+          \resumeItemListStart
+            \resumeItem{AI powered journaling web application that follows up on entries}
+            \resumeItem{Used OpenAI GPT-3 to compound prompts in a Chat-GPT way but for larger responses.}
+            \resumeItem{Helps users writers block by formulating custom response prompts}
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{OASIS Shock Therapy Device} $|$ \emph{C++, QT}}{November - December 2022}
+          \resumeItemListStart
+            \resumeItem{Simulation of an OASIS home shock therapy device that achieved 80\% of the original device's functionality}
+            \resumeItem{Consisted of using C++ and the QT framework for the GUI}
+            \resumeItem{Project was conducted using software engineering paradigms such as UML diagrams and Agile Development}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{:  Java, Python, C/C++, JavaScript, HTML/CSS} \\
+     \textbf{Frameworks}{: React, React Native, Node.js, MongoDB/Mongoose, QT, Google Cloud} \\
+     \textbf{Developer Tools}{: Git, VS Code, Visual Studio, VIM} \\
+     \textbf{Certifications}{:  Canada Secret Clearance, Ontario G license}
+    }}
+ \end{itemize}
+%-------------------------------------------
+
+%-------------HOBBIES---------------------
+
+
+%-------------------------------------------
+
+\end{document}
