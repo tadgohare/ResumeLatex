@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1709165708.0219 "c:/Users/tadgo/OneDrive - Carleton University/Coding projects/ResumeLatex/main.tex" "main.pdf" "main" 1709165710.01072 2
+["pdflatex"] 1709255423.5137 "c:/Users/tadgo/OneDrive - Carleton University/Coding projects/ResumeLatex/main.tex" "main.pdf" "main" 1709255425.08332 2
   "C:/Users/tadgo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1709146747 338024 cdf18b74d372ea296d7799cee2d5fa44 ""
   "C:/Users/tadgo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1709146581 24231887 0c1c2b54eebfb094ae4af26ecaf8d9e8 ""
   "C:/Users/tadgo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/roboto/rbto_5xgh2b.enc" 1576067631 3167 77bc12697e37f56677cab0d82d1d1400 ""
@@ -104,10 +104,10 @@
   "C:/Users/tadgo/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1700599895 7500 db31c3d04f8bc9010e47a5efbbace9ff ""
   "C:/Users/tadgo/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/tadgo/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Users/tadgo/OneDrive - Carleton University/Coding projects/ResumeLatex/main.tex" 1709165699 7186 f4f6aae81060d6c157925fa70bb932a8 ""
-  "main.aux" 1709165709 673 87f7cc5c47434bbc0db64ec5bc480cd4 "pdflatex"
-  "main.out" 1709165709 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
-  "main.tex" 1709165699 7186 f4f6aae81060d6c157925fa70bb932a8 ""
+  "c:/Users/tadgo/OneDrive - Carleton University/Coding projects/ResumeLatex/main.tex" 1709255405 7373 7dcdb032cf103e62e5dff721ccae4bfd ""
+  "main.aux" 1709255424 673 87f7cc5c47434bbc0db64ec5bc480cd4 "pdflatex"
+  "main.out" 1709255424 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
+  "main.tex" 1709255405 7373 7dcdb032cf103e62e5dff721ccae4bfd ""
   (generated)
   "main.aux"
   "main.log"

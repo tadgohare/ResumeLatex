@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.28)  28 FEB 2024 19:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.28)  29 FEB 2024 20:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -636,7 +636,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,330b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tadgo/AppData/Local/Programs/MiKTeX/fonts/type1/google/roboto/Roboto-Bold.pfb><C:/Users/tadgo/AppData/Local/Programs/MiKTeX/fonts/type1/google/roboto/Roboto-Italic.pfb><C:/Users/tadgo/AppData/Local/Programs/MiKTeX/fonts/type1/google/roboto/Roboto-Regular.pfb><C:/Users/tadgo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tadgo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on main.pdf (1 page, 104545 bytes).
+Output written on main.pdf (1 page, 104528 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
